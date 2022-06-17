@@ -10,6 +10,9 @@
   <meta name="author" content="Ye Zhu">
   <meta property="og:title" content="Ye Zhu" />
   <meta property="og:type" content="website" />
+  <!-- <meta property="og:url" content="http://www.martinsaveski.com" />
+  <meta property="og:site_name" content="Martin Saveski" />
+  <link rel="canonical" href="http://www.martinsaveski.com" /> -->
   <meta property="og:url" content="http://" />
   <meta property="og:site_name" content="Ye Zhu" />
   <link rel="canonical" href="http://" />
@@ -76,6 +79,11 @@
             <p>Ph.D. candidate in Computer Science, Illinois Institute of Technology</p>
             <p>Contact: yzhu96 [AT] hawk.iit.edu</p>
             <p>
+
+
+<!--               <span onclick="window.open('')" style="cursor: pointer">
+                <i class="fa fa-linkedin-square" aria-hidden="true"></i>
+              </span> -->
               
               <span onclick="window.open('https://github.com/L-YeZhu')" style="cursor: pointer">
                 <i class="fa fa-github" aria-hidden="true"></i>
@@ -83,6 +91,10 @@
 
               <span onclick="window.open('https://scholar.google.com/citations?user=uk5WuyIAAAAJ&hl=en&authuser=1')" style="cursor: pointer">
                 <i class="ai ai-google-scholar ai-lg" aria-hidden="true"></i>
+              </span>
+
+              <span onclick="window.open('https://twitter.com/szyezhu')" style="cursor: pointer">
+                <i class="fa fa-twitter" aria-hidden="true"></i>
               </span>
             </p>
         </div>
@@ -122,7 +134,7 @@ In addition to the academic work, I am a French translator for the  European sci
 
 
 <p>
-Last update: 04/2022
+Last update: 06/2022
 </p>
 
 </div>
@@ -132,17 +144,19 @@ Last update: 04/2022
 <div class="docs-section" id="news">
   <h4>News</h4>
   <p>
+  06/2022: Great pleasure to join the <a href="https://visualai.princeton.edu/" target="_blank">Princeton Visual AI lab</a> as a visiting researcher, working with <a href="https://www.cs.princeton.edu/~olgarus/" target="_blank">Prof. Olga Russakovsky</a>. 
+  </p>
+  <p>
+  05/2022: Recieved the CVPR 2022 travel grant.
+  </p>
+  <p>
   07/2021: One paper about vision and language accepted to TPAMI 2021.
   </p>
   <p>
   05/2021: Start research internship at Snap Inc..
   </p>
-  <p>
-  02/2021: One paper about vision and audio learning accepted to ICASSP 2021.
-  </p>
-  <p>
-  01/2021: Transferred to Illiois Institute of Technology (IIT).
-  </p>
+
+
 
 </div>
 
@@ -156,14 +170,39 @@ Last update: 04/2022
 <!--   <sup>‡</sup> indicates equal contribution. -->
   </p>
 
+<!--   <ul class="tab-nav">
+    <li><div class="button active" data-ref="#papers-selected">Selected</div></li>
+    <li><div class="button" data-ref="#papers-all">All</div></li>
+  </ul> --> 
 
   <div class="tab-content">
     <div class="tab-pane active" id="papers-selected">
       
       
         <div class="paper">
+          <p class="title"><b>Discrete Contrastive Diffusion for Cross-Modal and Conditional Generation</b></p>
+          <p><u><b>Ye Zhu</b></u>, Yu Wu, Kyle Olszewski, Jian Ren, Sergey Tulyakov, and Yan Yan</p>
+          <p><i>arXiv preprint</i></p>
+           <div class="paper-buttons">
+            
+              <a class="button" href="https://arxiv.org/abs/2206.07771" target="_blank">Paper</a>
+            
+
+            
+
+            
+
+            
+
+            
+              <a class="button" href="https://github.com/L-YeZhu/CDCD" target="_blank">Code</a>
+            
+          </div>
+        </div>
+      
+        <div class="paper">
           <p class="title"><b>Quantized GAN for Complex Music Generation from Dance Videos</b></p>
-          <p><b>Ye Zhu</b>, Kyle Olszewski, Yu Wu, Panos Achlioptas, Menglei Chai, Yan Yan, and Sergey Tulyakov</p>
+          <p><u><b>Ye Zhu</b></u>, Kyle Olszewski, Yu Wu, Panos Achlioptas, Menglei Chai, Yan Yan, and Sergey Tulyakov</p>
           <p><i>arXiv preprint</i></p>
            <div class="paper-buttons">
             
@@ -184,7 +223,7 @@ Last update: 04/2022
       
         <div class="paper">
           <p class="title"><b>Supplementing Missing Visions via Dialog for Scene Graph Generation</b></p>
-          <p><b>Ye Zhu</b>, Xiaoguang Zhu, Yuzhang Shang, Zhenhao Zhao, and Yan Yan</p>
+          <p><u><b>Ye Zhu</b></u>, Xiaoguang Zhu, Yuzhang Shang, Zhenhao Zhao, and Yan Yan</p>
           <p><i>arXiv preprint</i></p>
            <div class="paper-buttons">
             
@@ -205,8 +244,8 @@ Last update: 04/2022
       
         <div class="paper">
           <p class="title"><b>Saying the Unseen: Video Descriptions via Dialog Agents</b></p>
-          <p><b>Ye Zhu</b>, Yu Wu, Yi Yang, and Yan Yan</p>
-          <p><i>IEEE Transactions on Pattern Analysis and Machine Intelligence (TPAMI), 2021</i></p>
+          <p><u><b>Ye Zhu</b></u>, Yu Wu, Yi Yang, and Yan Yan</p>
+          <p><i>IEEE Transactions on Pattern Analysis and Machine Intelligence <b>(TPAMI)</b>, 2021</i></p>
            <div class="paper-buttons">
             
               <a class="button" href="https://arxiv.org/pdf/2106.14069.pdf" target="_blank">Paper</a>
@@ -226,8 +265,8 @@ Last update: 04/2022
       
         <div class="paper">
           <p class="title"><b>Learning Audio-Visual Correlations From Variational Cross-Modal Generations</b></p>
-          <p><b>Ye Zhu</b>, Yu Wu, Hugo Latapie, Yi Yang, and Yan Yan</p>
-          <p><i>IEEE International Conference on Acoustics, Speech and Signal Processing (ICASSP), 2021</i></p>
+          <p><u><b>Ye Zhu</b></u>, Yu Wu, Hugo Latapie, Yi Yang, and Yan Yan</p>
+          <p><i>IEEE International Conference on Acoustics, Speech and Signal Processing <b>(ICASSP)</b>, 2021</i></p>
            <div class="paper-buttons">
             
               <a class="button" href="https://arxiv.org/pdf/2102.03424.pdf" target="_blank">Paper</a>
@@ -246,9 +285,28 @@ Last update: 04/2022
         </div>
       
         <div class="paper">
+          <p class="title"><b>Skeleton Sequence and RGB Frame Based Multi-Modality Feature Fusion Network for Action Recognition</b></p>
+          <p>Xiaoguang Zhu, <u><b>Ye Zhu</b></u>, Haoyu Wang, Honglin Wen, Yan Yan, Peilin Liu.</p>
+          <p><i>Transactions on Multimedia Computing Communications and Applications <b>(TOMM)</b>, 2021</i></p>
+           <div class="paper-buttons">
+            
+              <a class="button" href="https://arxiv.org/abs/2202.11374" target="_blank">Paper</a>
+            
+
+            
+
+            
+
+            
+
+            
+          </div>
+        </div>
+      
+        <div class="paper">
           <p class="title"><b>Describing Unseen Videos via Multi-Modal Cooperative Dialog Agents</b></p>
-          <p><b>Ye Zhu</b>, Yu Wu, Yi Yang, and Yan Yan</p>
-          <p><i>European Conference on Computer Vision (ECCV), 2020</i></p>
+          <p><u><b>Ye Zhu</b></u>, Yu Wu, Yi Yang, and Yan Yan</p>
+          <p><i>European Conference on Computer Vision <b>(ECCV)</b>, 2020</i></p>
            <div class="paper-buttons">
             
               <a class="button" href="https://arxiv.org/pdf/2008.07935.pdf" target="_blank">Paper</a>
@@ -268,7 +326,7 @@ Last update: 04/2022
       
         <div class="paper">
           <p class="title"><b>Hierarchical HMM for Eye Movement Classifications</b></p>
-          <p><b>Ye Zhu</b>, Yan Yan, and  Oleg Komogortsev</p>
+          <p><u><b>Ye Zhu</b></u>, Yan Yan, and  Oleg Komogortsev</p>
           <p><i>European Conference on Computer Vision Workshop (ECCV Workshop), 2020</i></p>
            <div class="paper-buttons">
             
@@ -290,8 +348,29 @@ Last update: 04/2022
     <div class="tab-pane" id="papers-all">
       
         <div class="paper">
+          <p class="title"><b>Discrete Contrastive Diffusion for Cross-Modal and Conditional Generation</b></p>
+          <p><u><b>Ye Zhu</b></u>, Yu Wu, Kyle Olszewski, Jian Ren, Sergey Tulyakov, and Yan Yan</p>
+          <p><i>arXiv preprint</i></p>
+           <div class="paper-buttons">
+            
+              <a class="button" href="https://arxiv.org/abs/2206.07771" target="_blank">Paper</a>
+            
+
+            
+
+            
+
+            
+
+            
+              <a class="button" href="https://github.com/L-YeZhu/CDCD" target="_blank">Code</a>
+            
+          </div>
+        </div>
+      
+        <div class="paper">
           <p class="title"><b>Quantized GAN for Complex Music Generation from Dance Videos</b></p>
-          <p><b>Ye Zhu</b>, Kyle Olszewski, Yu Wu, Panos Achlioptas, Menglei Chai, Yan Yan, and Sergey Tulyakov</p>
+          <p><u><b>Ye Zhu</b></u>, Kyle Olszewski, Yu Wu, Panos Achlioptas, Menglei Chai, Yan Yan, and Sergey Tulyakov</p>
           <p><i>arXiv preprint</i></p>
            <div class="paper-buttons">
             
@@ -312,7 +391,7 @@ Last update: 04/2022
       
         <div class="paper">
           <p class="title"><b>Supplementing Missing Visions via Dialog for Scene Graph Generation</b></p>
-          <p><b>Ye Zhu</b>, Xiaoguang Zhu, Yuzhang Shang, Zhenhao Zhao, and Yan Yan</p>
+          <p><u><b>Ye Zhu</b></u>, Xiaoguang Zhu, Yuzhang Shang, Zhenhao Zhao, and Yan Yan</p>
           <p><i>arXiv preprint</i></p>
            <div class="paper-buttons">
             
@@ -333,8 +412,8 @@ Last update: 04/2022
       
         <div class="paper">
           <p class="title"><b>Saying the Unseen: Video Descriptions via Dialog Agents</b></p>
-          <p><b>Ye Zhu</b>, Yu Wu, Yi Yang, and Yan Yan</p>
-          <p><i>IEEE Transactions on Pattern Analysis and Machine Intelligence (TPAMI), 2021</i></p>
+          <p><u><b>Ye Zhu</b></u>, Yu Wu, Yi Yang, and Yan Yan</p>
+          <p><i>IEEE Transactions on Pattern Analysis and Machine Intelligence <b>(TPAMI)</b>, 2021</i></p>
            <div class="paper-buttons">
             
               <a class="button" href="https://arxiv.org/pdf/2106.14069.pdf" target="_blank">Paper</a>
@@ -354,8 +433,8 @@ Last update: 04/2022
       
         <div class="paper">
           <p class="title"><b>Learning Audio-Visual Correlations From Variational Cross-Modal Generations</b></p>
-          <p><b>Ye Zhu</b>, Yu Wu, Hugo Latapie, Yi Yang, and Yan Yan</p>
-          <p><i>IEEE International Conference on Acoustics, Speech and Signal Processing (ICASSP), 2021</i></p>
+          <p><u><b>Ye Zhu</b></u>, Yu Wu, Hugo Latapie, Yi Yang, and Yan Yan</p>
+          <p><i>IEEE International Conference on Acoustics, Speech and Signal Processing <b>(ICASSP)</b>, 2021</i></p>
            <div class="paper-buttons">
             
               <a class="button" href="https://arxiv.org/pdf/2102.03424.pdf" target="_blank">Paper</a>
@@ -375,11 +454,11 @@ Last update: 04/2022
       
         <div class="paper">
           <p class="title"><b>Skeleton Sequence and RGB Frame Based Multi-Modality Feature Fusion Network for Action Recognition</b></p>
-          <p>Xiaoguang Zhu, <b>Ye Zhu</b>, Haoyu Wang, Honglin Wen, Yan Yan, Peilin Liu.</p>
-          <p><i>Transactions on Multimedia Computing Communications and Applications (TOMM), 2021</i></p>
+          <p>Xiaoguang Zhu, <u><b>Ye Zhu</b></u>, Haoyu Wang, Honglin Wen, Yan Yan, Peilin Liu.</p>
+          <p><i>Transactions on Multimedia Computing Communications and Applications <b>(TOMM)</b>, 2021</i></p>
            <div class="paper-buttons">
             
-              <a class="button" href="" target="_blank">Paper</a>
+              <a class="button" href="https://arxiv.org/abs/2202.11374" target="_blank">Paper</a>
             
 
             
@@ -394,8 +473,8 @@ Last update: 04/2022
       
         <div class="paper">
           <p class="title"><b>Describing Unseen Videos via Multi-Modal Cooperative Dialog Agents</b></p>
-          <p><b>Ye Zhu</b>, Yu Wu, Yi Yang, and Yan Yan</p>
-          <p><i>European Conference on Computer Vision (ECCV), 2020</i></p>
+          <p><u><b>Ye Zhu</b></u>, Yu Wu, Yi Yang, and Yan Yan</p>
+          <p><i>European Conference on Computer Vision <b>(ECCV)</b>, 2020</i></p>
            <div class="paper-buttons">
             
               <a class="button" href="https://arxiv.org/pdf/2008.07935.pdf" target="_blank">Paper</a>
@@ -415,7 +494,7 @@ Last update: 04/2022
       
         <div class="paper">
           <p class="title"><b>Hierarchical HMM for Eye Movement Classifications</b></p>
-          <p><b>Ye Zhu</b>, Yan Yan, and  Oleg Komogortsev</p>
+          <p><u><b>Ye Zhu</b></u>, Yan Yan, and  Oleg Komogortsev</p>
           <p><i>European Conference on Computer Vision Workshop (ECCV Workshop), 2020</i></p>
            <div class="paper-buttons">
             
@@ -436,7 +515,316 @@ Last update: 04/2022
   </div>
 </div>
 
+<!--  ========== PROJECTS ==========  -->
+<!-- <div class="docs-section" id="honors">
+  <h4>Selected Honors and Others</h4>
 
+  ========== Selected Honors ==========
+  <p> <b>Merrick Merit Fellowship</b>, Texas State University, 2019</p>
+  <p> <b>First Class Academic Excellence Scholarship</b>, Shanghai Jiao Tong University, 2017 & 2018</p>
+  <p> <b>Meritorious Winner</b>, in MCM(Mathematical Contest in Modeling), 2015 </p>
+
+  ========== Others ==========
+  <p> French-English-Chinese Translator for European science magazine SCIENCE & VIE. </p>
+  <p> Reviewer for IEEE Transactions on Multimedia, ACM Multimedia, Neurocomputing. </p> -->
+
+ <!--  <ul class="tab-nav">
+    <li><div class="button active" data-ref="#projects-selected">Selected</div></li>
+    <li><div class="button" data-ref="#projects-all">All</div></li>
+  </ul>
+
+  <div class="tab-content">
+    <div class="tab-pane active" id="projects-selected">
+      
+      
+        
+        
+          <div class="row">
+        
+
+          <div class="four columns">
+            <div class="project-container">
+
+                <div class="project-image-container">
+                  <a href="projects/2016_network-ab-testing.html">
+                    <img src="assets/projects/2016_network-ab/thumbnail.jpg" class="u-max-full-width" />
+                  </a>
+                </div>
+
+                <div class="project-caption">
+                  <b>Detecting Network Effects</b> <br/>
+                  Randomizing Over Randomized Experiments
+                </div>
+
+            </div>
+          </div>
+
+        
+      
+        
+        
+
+          <div class="four columns">
+            <div class="project-container">
+
+                <div class="project-image-container">
+                  <a href="projects/2016_human-atlas.html">
+                    <img src="assets/projects/2016_human-atlas/thumbnail.png" class="u-max-full-width" />
+                  </a>
+                </div>
+
+                <div class="project-caption">
+                  <b>Human Atlas</b> <br/>
+                  Tool for Mapping Social Networks
+                </div>
+
+            </div>
+          </div>
+
+        
+      
+        
+        
+
+          <div class="four columns">
+            <div class="project-container">
+
+                <div class="project-image-container">
+                  <a href="projects/2015_jun.html">
+                    <img src="assets/projects/2015_jun/thumbnail.png" class="u-max-full-width" />
+                  </a>
+                </div>
+
+                <div class="project-caption">
+                  <b>Responsive Communities</b> <br/>
+                  Pilot project in Jun, Spain
+                </div>
+
+            </div>
+          </div>
+
+        
+          </div>
+        
+      
+    </div>
+
+    <div class="tab-pane" id="projects-all">
+      
+        
+        
+          <div class="row">
+        
+
+          <div class="four columns">
+            <div class="project-container">
+
+                <div class="project-image-container">
+                  <a href="projects/2016_network-ab-testing.html">
+                    <img src="assets/projects/2016_network-ab/thumbnail.jpg" class="u-max-full-width" />
+                  </a>
+                </div>
+
+                <div class="project-caption">
+                  <b>Detecting Network Effects</b> <br/>
+                  Randomizing Over Randomized Experiments
+                </div>
+
+            </div>
+          </div>
+
+        
+      
+        
+        
+
+          <div class="four columns">
+            <div class="project-container">
+
+                <div class="project-image-container">
+                  <a href="projects/2016_human-atlas.html">
+                    <img src="assets/projects/2016_human-atlas/thumbnail.png" class="u-max-full-width" />
+                  </a>
+                </div>
+
+                <div class="project-caption">
+                  <b>Human Atlas</b> <br/>
+                  Tool for Mapping Social Networks
+                </div>
+
+            </div>
+          </div>
+
+        
+      
+        
+        
+
+          <div class="four columns">
+            <div class="project-container">
+
+                <div class="project-image-container">
+                  <a href="projects/2015_jun.html">
+                    <img src="assets/projects/2015_jun/thumbnail.png" class="u-max-full-width" />
+                  </a>
+                </div>
+
+                <div class="project-caption">
+                  <b>Responsive Communities</b> <br/>
+                  Pilot project in Jun, Spain
+                </div>
+
+            </div>
+          </div>
+
+        
+          </div>
+        
+      
+        
+        
+          <div class="row">
+        
+
+          <div class="four columns">
+            <div class="project-container">
+
+                <div class="project-image-container">
+                  <a href="projects/2014_item-cold-start.html">
+                    <img src="assets/projects/2014_item-cold-start/thumbnail.jpg" class="u-max-full-width" />
+                  </a>
+                </div>
+
+                <div class="project-caption">
+                  <b>Cold-Start Recommendations</b> <br/>
+                  Learning Local Collective Embeddings
+                </div>
+
+            </div>
+          </div>
+
+        
+      
+        
+        
+
+          <div class="four columns">
+            <div class="project-container">
+
+                <div class="project-image-container">
+                  <a href="projects/2013_iterative-hybrid-algorithm.html">
+                    <img src="assets/projects/2013_iterative-hybrid-algorithm/thumbnail.jpg" class="u-max-full-width" />
+                  </a>
+                </div>
+
+                <div class="project-caption">
+                  <b>Semi-supervised Learning</b> <br/>
+                  Iterative Hybrid Algorithm
+                </div>
+
+            </div>
+          </div>
+
+        
+      
+        
+        
+
+          <div class="four columns">
+            <div class="project-container">
+
+                <div class="project-image-container">
+                  <a href="projects/2011_twitter-sentiment-analysis.html">
+                    <img src="assets/projects/2011_twitter-sentiment-analysis/thumbnail.png" class="u-max-full-width" />
+                  </a>
+                </div>
+
+                <div class="project-caption">
+                  <b>Twitter Sentiment Analysis</b> <br/>
+                  Analyzing Financial Tweets
+                </div>
+
+            </div>
+          </div>
+
+        
+          </div>
+        
+      
+        
+        
+          <div class="row">
+        
+
+          <div class="four columns">
+            <div class="project-container">
+
+                <div class="project-image-container">
+                  <a href="projects/2010_wordnet-contruction.html">
+                    <img src="assets/projects/2010_wordnet-construction/thumbnail.jpg" class="u-max-full-width" />
+                  </a>
+                </div>
+
+                <div class="project-caption">
+                  <b>Wordnet Construction</b> <br/>
+                  Automatic Wordnet Construction using Language Models
+                </div>
+
+            </div>
+          </div>
+
+        
+      
+        
+        
+
+          <div class="four columns">
+            <div class="project-container">
+
+                <div class="project-image-container">
+                  <a href="projects/2010_fingerprint-verification.html">
+                    <img src="assets/projects/2010_fingerprint-verification/thumbnail.png" class="u-max-full-width" />
+                  </a>
+                </div>
+
+                <div class="project-caption">
+                  <b>Fingerprint Verification</b> <br/>
+                  Image processing class project
+                </div>
+
+            </div>
+          </div>
+
+        
+      
+        
+        
+
+          <div class="four columns">
+            <div class="project-container">
+
+                <div class="project-image-container">
+                  <a href="projects/2009_connect-four.html">
+                    <img src="assets/projects/2009_connect-four/thumbnail.png" class="u-max-full-width" />
+                  </a>
+                </div>
+
+                <div class="project-caption">
+                  <b>Connect Four AI Agent</b> <br/>
+                  Iterative deepening and alpha-beta pruning
+                </div>
+
+            </div>
+          </div>
+
+        
+          </div>
+        
+      
+    </div>
+  </div> -->
+
+<!-- </div> -->
 
 
 <!-- ========== RESUME ========== -->
@@ -537,8 +925,8 @@ Last update: 04/2022
 
 
 <div class="docs-section" id="template">
-<!--     <h4>Website Design</h4> -->
     Thanks to <a href="https://github.com/msaveski/www_personal" target="_blank">Martin Saveski</a> for providing the template for the web design. 
+
 
 </div>
 
@@ -552,11 +940,17 @@ Last update: 04/2022
           Contact: yzhu96 [AT] hawk.iit.edu
         </div>
         <div class="four columns">
+<!--           <span onclick="window.open('')" style="cursor: pointer">
+            <i class="fa fa-linkedin-square" aria-hidden="true"></i>
+          </span> -->
           <span onclick="window.open('https://github.com/L-YeZhu')" style="cursor: pointer">
             <i class="fa fa-github" aria-hidden="true"></i>
           </span>
           <span onclick="window.open('https://scholar.google.com/citations?user=uk5WuyIAAAAJ&hl=en&authuser=1')" style="cursor: pointer">
             <i class="ai ai-google-scholar ai-lg" aria-hidden="true"></i>
+          </span>
+          <span onclick="window.open('https://twitter.com/szyezhu')" style="cursor: pointer">
+            <i class="fa fa-twitter" aria-hidden="true"></i>
           </span>
         </div>
       </div>
@@ -565,7 +959,7 @@ Last update: 04/2022
   </div>
 
   <!-- Google Analytics -->
-<!--   <script>
+ <!--  <script>
   (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
   (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
   m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
